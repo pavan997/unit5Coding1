@@ -8,7 +8,7 @@ function Navbar() {
             <div>this is navbar</div>
             <div>cart</div>
 
-            <Grocery props={Data}/>
+            
         </div>
 
     )

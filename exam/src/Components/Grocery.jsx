@@ -1,8 +1,8 @@
 import React from 'react'
 
 
-function Grocery(props) {
-    console.log(props)
+function Grocery({}) {
+    
     return (
         <div>
             
