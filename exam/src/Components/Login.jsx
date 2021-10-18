@@ -2,7 +2,7 @@ import React from 'react'
 import styles from './Login.module.css'
 import Cart from './Cart';
 import Navbar from './Navbar';
-import Data from './Data';
+
 
 
 
@@ -34,7 +34,7 @@ function Login() {
         }
     }
     if(isAuth){
-        return <Data/>
+        return <Navbar/>
     }
     return (
         
