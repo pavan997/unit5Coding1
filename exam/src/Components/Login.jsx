@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from './Login.module.css'
 import Cart from './Cart';
+import Navbar from './Navbar';
 
 
 
@@ -32,17 +33,22 @@ function Login() {
         }
     }
     if(isAuth){
-        return <Cart/>
+        return <Navbar/>
     }
     return (
-        <div clasName={styles.Container}>
-            <div className = {styles.mainCont}>
+        
+        <div className = {styles.mainCont}>
+            <h1>LoginPage</h1>
+            <div className={styles.insideDiv}>
                 <input type='text' name='username' placeholder='enter username' onChange={handleChange}/>
+                <br/>
                 <input type='password' name='password' placeholder='enter password' onChange={handleChange}/>
+                <br/>
                 <button onClick={handleLogin}>Login</button>
-                
             </div>
+            
         </div>
+        
     )
 }
 
