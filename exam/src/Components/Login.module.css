@@ -2,7 +2,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  border: 1px solid #dfab2b;
 }
 .insideDiv {
   width: 300px;
@@ -13,16 +12,19 @@
   display: flex;
   flex-direction: column;
   gap: 10px;
+  border: 1px solid #dfab2b;
 }
 input {
   width: 200px;
   height: 50px;
   border-radius: 10px;
   text-align: center;
+  border: 1px solid #ab9a89;
 }
 
 button {
   width: 110px;
   height: 50px;
   border-radius: 10px;
+  border: 1px solid #ab9a89;
 }

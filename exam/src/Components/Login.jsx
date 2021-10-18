@@ -25,7 +25,7 @@ function Login() {
     }
     const handleLogin = () =>{
         const {username,password} = data;
-        if(username =='admin' && password =='admin'){
+        if(username ==='admin' && password ==='admin'){
             setIsAuth(true);
         }else{
             alert('please check your details entered username or password is wrong')
