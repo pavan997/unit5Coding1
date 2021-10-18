@@ -7,7 +7,7 @@ function Navbar() {
     const [items,setItems] = React.useState(data);
     
     return (
-        <div>
+        <div style={{display:'grid',gridTemplateColumns:'repeat(2,30%)',gridGap:'2% 13%'}}>
             {items.map((item,id)=>{
                 return <Grocery key={id} data1={item} />
             })}
